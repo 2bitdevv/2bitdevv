@@ -18,12 +18,18 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate snake.svg
+      - name: Generate light theme snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: 2bitdevv
-          outputs: dist/snake.svg
-          palette: github-dark
+          outputs: dist/github-snake.svg
+
+      - name: Generate dark theme snake.svg
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: 2bitdevv
+          outputs: dist/github-snake-dark.svg
+          palette: dark
 
       - name: Commit and push to output branch
         run: |
@@ -31,6 +37,6 @@ jobs:
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout --orphan output
           mkdir -p dist
-          git add dist/snake.svg
-          git commit -m "Generate snake.svg"
+          git add dist/github-snake.svg dist/github-snake-dark.svg
+          git commit -m "Generate light and dark theme snake svg"
           git push -f origin output
