@@ -2,7 +2,7 @@ name: Generate Snake Animation
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */12 * * *" # ทุก 12 ชั่วโมง
   workflow_dispatch:
   push:
     branches:
@@ -11,19 +11,17 @@ on:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Generate Snake SVG
+      - name: Generate snake.svg
         uses: Platane/snk/svg-only@v3
         with:
           github_user_name: 2bitdevv
           outputs: dist/snake.svg
 
-      - name: Push snake.svg to the output branch
+      - name: Upload to GitHub Pages
         uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
