@@ -2,7 +2,6 @@
 
 # 👋🏼 Hello World! I'm Thanaphat.
 * 🌏 From Thailand.
-* 📚 See my portfolio at [https://2bitdevv.github.io/examportfolio/]
 * 🧠 I'm Learning ReactJS, NodeJs, NextJs, TypeScript
 
 # 💻 Tech Stack
