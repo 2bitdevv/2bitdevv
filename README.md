@@ -1,16 +1,23 @@
-## Hi there 👋
+<h1 align="left">Hello World!, I'm Billy, a CS student from Thailand 🇹🇭</h1>
 
-<!--
-**2bitdevv/2bitdevv** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+###
 
-Here are some ideas to get you started:
+<p align="left">👨‍💻 building web stuff & fixing bugs  <br>🚀 currently learning full-stack development  <br>🎯 aiming to become a solid developer</p>
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+###
+
+<h3 align="left">💻 Tech Stack:</h3>
+
+###
+
+<p align="left">Lets hold it simple, there is much more but these tools are what I use daily:</p>
+
+###
+
+<p align="left">- Lang: JS / TS  <br>- Framework: Next.js  <br>- Styling: TailwindCSS & shadcn/ui  <br>- Backend: Supabase / Firebase  <br>- Deploy: Vercel</p>
+
+###
+
+<img src="https://raw.githubusercontent.com/2bitdevv/2bitdevv/output/github-contribution-grid-snake.svg" alt="Snake animation" />
+
+###
