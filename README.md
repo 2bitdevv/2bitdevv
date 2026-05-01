@@ -18,7 +18,5 @@
 
 ###
 
-<p align="center">
-  <img src="https://github.com/2bitdevv/2bitdevv/blob/output/github-snake-dark.svg" alt="contribution snake" width="100%"/>
-</p>
+<img src="https://raw.githubusercontent.com/Platane/snk/output/github-contribution-grid-snake.svg" /></p>
 ###
