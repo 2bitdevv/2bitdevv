@@ -18,6 +18,7 @@
 
 ###
 
-<img src="https://raw.githubusercontent.com/2bitdevv/2bitdevv/output/github-contribution-grid-snake.svg" alt="Snake animation" />
-
+<p align="center">
+  <img src="https://github.com/2bitdevv/2bitdevv/blob/output/github-snake-dark.svg" alt="contribution snake" width="100%"/>
+</p>
 ###
