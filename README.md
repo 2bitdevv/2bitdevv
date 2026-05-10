@@ -14,7 +14,7 @@
 
 ###
 
-<p align="left">- Lang: JS / TS  <br>- Framework: Next.js  <br>- Styling: TailwindCSS & shadcn/ui  <br>- Backend: Supabase / Firebase  <br>- Deploy: Vercel</p>
+<p align="left">- Lang: JS / TS  <br>- Framework: Next.js  <br>- Styling: TailwindCSS & shadcn/ui  </p>
 
 ###
 
